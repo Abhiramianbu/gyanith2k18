@@ -1,0 +1,64 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+
+
+@media (min-width: 1200px) {
+	
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 992px) {
+		
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+	
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+
+}
+
+.nc-outerwrapper{
+    background: linear-gradient(to bottom right,rgba(0,0,0,0.9),rgba(150, 3, 3,1),rgba(0,0,0,0.9)) !important;
+}
+.nc-innerwrapper{
+    background-size: contain;
+    background-repeat: inherit;
+}
+.nc-popup p{
+    font-size:1.2em;
+}
+.nc-popup p a{
+    color:#000 !important;
+}
+.nc-popup p a:hover{
+    color:rgba(150, 3, 3,1) !important;
+}

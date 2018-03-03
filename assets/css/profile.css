@@ -1,0 +1,324 @@
+@font-face{font-family:'Proxima Nova';font-style:normal;font-weight:100;src:url(../fonts/proxima/2B04A9_A_0.eot);src:url(../fonts/proxima/2B04A9_A_0-1.eot) format("embedded-opentype"),url(../fonts/proxima/2B04A9_A_0.woff) format("woff"),url(../fonts/proxima/2B04A9_A_0.ttf) format("truetype")}
+@font-face{font-family:'Proxima Nova';font-style:normal;font-weight:200;src:url(../fonts/proxima/2B04A9_B_0.eot);src:url(../fonts/proxima/2B04A9_B_0-1.eot) format("embedded-opentype"),url(../fonts/proxima/2B04A9_B_0.woff) format("woff"),url(../fonts/proxima/2B04A9_B_0.ttf) format("truetype")}
+@font-face{font-family:'Proxima Nova';font-style:normal;font-weight:400;src:url(../fonts/proxima/2B04A9_E_0.eot);src:url(../fonts/proxima/2B04A9_E_0-1.eot) format("embedded-opentype"),url(../fonts/proxima/2B04A9_E_0.woff) format("woff"),url(../fonts/proxima/2B04A9_E_0.ttf) format("truetype")}
+@font-face{font-family:'Proxima Nova';font-style:italic;font-weight:400;src:url(../fonts/proxima/2B04A9_C_0.eot);src:url(../fonts/proxima/2B04A9_C_0-1.eot) format("embedded-opentype"),url(../fonts/proxima/2B04A9_C_0.woff) format("woff"),url(../fonts/proxima/2B04A9_C_0.ttf) format("truetype")}
+@font-face{font-family:'Proxima Nova';font-style:normal;font-weight:700;src:url(../fonts/proxima/2B04A9_D_0.eot);src:url(../fonts/proxima/2B04A9_D_0-1.eot) format("embedded-opentype"),url(../fonts/proxima/2B04A9_D_0.woff) format("woff"),url(../fonts/proxima/2B04A9_D_0.ttf) format("truetype")}
+
+html {
+    height: 100%;
+    width:100%;
+    background: #070000;
+    background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);
+    background: linear-gradient(to right, #070000, #4C0001, #070000); 
+}
+  
+body {
+    width:100%;
+    font-family:'Proxima Nova', sans-serif;
+    background: #070000; 
+    background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);
+    background: linear-gradient(to right, #070000, #4C0001, #070000); 
+}
+.container{
+    width:720px !important;
+}
+
+p{
+    display:inline-block;
+}
+
+
+#your-profile{
+    height:auto;
+    text-transform: uppercase;
+    /*background:#000;*/
+    color:#fff;
+    padding:60px 0px;
+    width:100%;
+    margin:0px;
+}
+
+#your-profile p{
+    /*font-family: 'Roboto', sans-serif;*/
+    text-align: center;
+    width:100%;
+    height:50px;
+    margin-bottom:0px;
+    font-size: 40px;
+}
+
+.profile-content{
+    /*font-family: 'Roboto', sans-serif;*/
+    /*background-color:#e6e7e8;*/
+    padding-bottom:50px;
+    width:100%;
+}
+
+#your-profile p span{
+    color: #c1272d;
+}
+
+.red{
+    color: #c1272d;    
+}
+
+.team1-div, .team2-div, .team3-div{
+    display:none;
+}
+
+.about-me{
+    text-align:center;
+    margin:10px;
+    text-transform:uppercase;
+    font-size:25px;
+    color:  #282828;
+    font-weight:600;
+    margin-bottom:0px;
+}
+
+#det-con{
+    background:#fff;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.27);
+    box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.27);
+    width:75%;
+    margin:30px auto;
+}
+
+.profile-details{
+    width:90%;
+    margin:0px auto;
+    padding:20px;
+}
+
+.profile-btn-teamid-dropdown{
+    list-style:none;
+    display:none;
+    padding-left:0;
+    background:#e6e7e8;
+    width:110px;
+}
+
+.profile-btn-teamid-dropdown li{
+    padding:10px;
+    color:black;
+    text-align: center;
+}
+
+.teamid-btn{
+    outline:none;
+}
+
+.about-me, .event-me{
+    text-align: center;
+    width:100%;
+}
+
+.event-me{
+    text-align:center;
+    margin:10px;
+    text-transform:uppercase;
+    font-size:25px;
+    color:  #282828;
+    font-weight:600;
+    margin-bottom:0px;
+    margin-bottom:20px;
+}
+
+#profile-name, #profile-email, #profile-college-name, #profile-contact, #profile-gyanid{
+    padding-left:20px;
+    font-size:21px;
+    vertical-align: middle;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight:300;
+}
+
+.profile-details i{
+    font-size:25px;
+    padding: 7px;
+    vertical-align: middle;
+    background-color: #282828;
+    color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left:12px;
+}
+
+.info-id{
+    background-color: #282828;
+    color: #fff;   
+    padding:10px 10px 10px 0px;
+    vertical-align: middle;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-weight:300;
+}
+
+.profile-details button{
+    background-color: #282828;
+    color: #fff;
+    border:0px;  
+    width:110px;
+    height:40px;
+    border-radius:4px;
+    outline:none;
+}
+
+#team-cont, #team1-mem-cont, #team2-mem-cont, #team3-mem-cont{
+    display:none;
+}
+
+#team1-mem-cont, #team2-mem-cont, #team3-mem-cont{
+    position:relative;
+    left:50px;
+    top:-10px;
+    display:none;
+}
+
+#team-cont{
+    text-align:center;
+    padding:5px 15px;
+    width:110px;
+    padding-top:0px;
+    position:relative;
+    right:6px;
+    cursor:pointer;
+}
+
+#team-mem{
+    display:inline-block;
+}
+
+#team-cont p{
+    margin-bottom: 0;
+    background-color: #e6e7e8;
+    width:110px;
+    text-align:center;
+    padding:5px 15px;
+}
+
+.event-container{
+    height:auto;
+    width:330px;
+    padding:10px ;
+    transition:0.5s all;
+    cursor:pointer;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.07);
+    box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.07);
+}
+
+.event-container:hover{
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.17);
+    -moz-box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.17);
+    box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.17);    
+}
+
+.event-div i{
+    border-left:1px solid black;
+    line-height:55px;
+    font-size:35px;
+    padding:0px 10px;
+    vertical-align:middle;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight:300;
+    background-color: #282828;
+    color:#c1272d;
+}
+
+footer p{
+    margin-bottom:0;
+}
+
+footer a{
+    color:#c1272d;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:#c1272d;
+}
+
+#eve-con-1, #eve-con-2{
+    margin-top:30px;
+}
+
+/*@media screen and (max-width:360px){
+
+    #det-con{
+        width:340px;
+        margin-top:30px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    .profile-details{
+        padding:10px;
+        width:99%;
+    }
+
+    .profile-details i{
+        display:none;
+    }
+
+    .info-id{
+        color: #c1272d;
+        background-color: #fff;   
+        padding:5px 5px 5px 0px;
+        vertical-align: middle;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        font-weight:300;
+    }
+
+    .info-id:after{
+        content:":";
+    }
+
+    .about-me{
+        width:95%;
+    }
+
+    #profile-name, #profile-email, #profile-college-name, #profile-contact, #profile-gyanid{
+    padding-left:5px;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    }
+
+    .teamid-btn{
+        margin-left:90px;
+    }
+
+    #team-cont{
+        margin-left:96px;
+    }
+
+    #team1-mem-cont, #team2-mem-cont, #team3-mem-cont{
+        margin-top:20px;
+        margin-left:40px;
+    }
+
+    #eve-con-1, #eve-con-2{
+        margin-left:13px;
+    }
+
+    .event-me{
+        position:relative;
+        font-size:17px;
+        right:180px;
+        margin-bottom:0;
+    }
+
+    .about-me{
+        font-size:17px;
+    }
+}*/
